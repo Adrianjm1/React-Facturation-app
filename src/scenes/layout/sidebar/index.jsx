@@ -10,6 +10,7 @@ import {
   DashboardOutlined,
   DonutLargeOutlined,
   HelpOutlineOutlined,
+  Inventory,
   MapOutlined,
   MenuOutlined,
   PeopleAltOutlined,
@@ -158,6 +159,12 @@ const SideBar = () => {
             path="/team"
             colors={colors}
             icon={<PeopleAltOutlined />}
+          />
+          <Item
+            title="Inventory"
+            path="/inventory"
+            colors={colors}
+            icon={<Inventory />}
           />
           <Item
             title="Contacts Information"
